@@ -1,0 +1,21 @@
+# 开启安全验证
+security:
+  basic:
+    enable: true
+  user:
+    name: user
+    password: password123
+
+server:
+  port: 8761
+
+eureka:
+  client:
+    register-with-eureka: false # 禁止自己当服务注册
+    fetch-registry: false # 屏蔽注册信息
+    service-url:
+      defaultZone: http://user:password123@localhost:8761/eureka
+
+looging:
+  level:
+    root: INFO

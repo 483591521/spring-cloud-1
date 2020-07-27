@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "looging.level.root",
+    "type": "java.lang.String",
+    "description": "A description for 'looging.level.root'"
+  },
+  {
+    "name": "security.basic.enable",
+    "type": "java.lang.String",
+    "description": "A description for 'security.basic.enable'"
+  },
+  {
+    "name": "security.user.name",
+    "type": "java.lang.String",
+    "description": "A description for 'security.user.name'"
+  },
+  {
+    "name": "security.user.password",
+    "type": "java.lang.String",
+    "description": "A description for 'security.user.password'"
+  }
+]}
